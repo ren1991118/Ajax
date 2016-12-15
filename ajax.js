@@ -11,7 +11,6 @@ function Ajax(obj){
 		var sc = document.createElement("script");
 		sc.src = obj.url + "?" + "cb=" + name;
 		document.body.appendChild(sc);
-		document.body.removeChild(sc);
 		return;
 
 	}
